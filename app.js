@@ -29,5 +29,9 @@ server.listen(3000, () => {
 });
 
 const rootController = require('./routes/index');
+const questionController = require('./routes/questions');
+const resultsController = require('./routes/results');
 
 app.use('/', rootController)
+app.use('/questions', questionController);
+app.use('/results', resultsController);

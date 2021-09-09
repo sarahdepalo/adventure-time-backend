@@ -310,3 +310,12 @@ INSERT INTO answers
     (character_value, character_value2, answer, question_id)
 VALUES
     (4, 8, 'Goofy', 10);
+
+
+-- RESULTS
+
+-- Finn 
+INSERT INTO results
+    (character_img, results_text, character_id)
+VALUES
+    ('../public/images/finn.jpeg', 'Like Finn, you are brave, kind, selfless, and totally rad! You always put others before yourself and go the extra mile to make those you love happy. You have a strong sense of what is right and wrong and will stop at nothing to pursue those ideals. Despite being a bit impulsive and aggressive at times, you create deep and meaningful relationships with those around you. Mathematical!', 1)

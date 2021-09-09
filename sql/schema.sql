@@ -18,7 +18,7 @@ CREATE TABLE answers (
 );
 
 
-CREATE TABLE resultsDescriptions (
+CREATE TABLE results (
     id serial PRIMARY KEY,
     character_img text,
     results_text text,
