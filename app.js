@@ -3,7 +3,7 @@
 require('dotenv').config();
 
 const http = require('http');
-const host = '0.0.0.1';
+const host = '0.0.0.0';
 const port = process.env.PORT || 3000;
 
 const cors = require('cors');
