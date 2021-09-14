@@ -20,13 +20,9 @@ app.use(express.static('public'))
 
 const server = http.createServer(app);
 
-//add when using heroku
-// server.listen(port, host, () => {
-//     console.log('Server has started.')
-// });
 
-server.listen(3000, () => {
-    console.log("Server is running at http://localhost:3000")
+server.listen(port, host, () => {
+    console.log('Server has started.')
 });
 
 const rootController = require('./routes/index');
