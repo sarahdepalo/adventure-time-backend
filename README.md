@@ -9,8 +9,10 @@ This API was used to generate questions and answers for the small Adventure Time
 BASE URL - [adventure-time-quiz.herokuapp.com](https://adventure-time-quiz.herokuapp.com)
 
 ## Endpints
-`GET /questions `
+`GET /questions`
+
 Returns all questions with their corresponding answers. Each answer also returns an arrray of character values which are used to determine the final character at the end of the quiz.
 
 `GET /results/:character_id`
+
 Returns a character image, name, and quiz result text. 
